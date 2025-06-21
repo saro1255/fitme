@@ -217,7 +217,7 @@ body {
   align-items: center;
 }
 
-#input_search {
+#food_search {
   border: none;
   outline: none;
   width: 100%;
@@ -230,7 +230,7 @@ body {
   background: none;
 }
 
-#input_search::placeholder {
+#food_search::placeholder {
   color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 14px;
@@ -249,6 +249,120 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
+}
+
+.mind_container {
+  padding: 30px 50px 0px 50px;
+}
+
+.span_heading_1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+#mind_food {
+  display: flex;
+  gap: 20px;
+}
+
+.mind_show_categ {
+  width: 210px;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mind_img {
+  border-radius: 56px;
+  width: 100px;
+  height: 100px;
+}
+
+.food_name {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #202020;
+}
+
+.search_res {
+  padding: 15px 0px 15px 0px;
+}
+
+.show_res {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.search_res_container {
+  width: 330px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.search_res_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.search_con_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.food_name_g {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+}
+
+.search_con_rate {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #FC8019;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_content {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer_img {
+  width: 65px;
 }
 
 /*# sourceMappingURL=style.css.map */

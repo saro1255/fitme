@@ -1,3 +1,5 @@
+let jsonData = {};
+
 (async function () {
     const front_whole_container = document.querySelector(".right-content");
 
@@ -19,7 +21,7 @@
         });
     }
 
-    var jsonData = {}
+    jsonData = {}
     jsonData['day_Spl'] = { "Chicken": ["butter_chicken"], "Mutton": ["mutton_biryani"], "Burger": ["spicy_chicken_burger"], "South Indian": ["masala_dosa"] };
     jsonData['recom_dish'] = { "Chicken": ["chicken_tikka"], "Mutton": ["mutton_korma"], "Burger": ["paneer_burger"], "South Indian": ["rava_dosa"] };
     jsonData['dishes'] = {"Chicken": { "butter_chicken": { "name": "Butter Chicken", "preparation_time": 45, "amount": "₹250", "cuisine_type": "North Indian", "rating": 4.5, "offer": "Two for ₹455" }, "chicken_chettinad": { "name": "Chicken Chettinad", "preparation_time": 40, "amount": "₹280", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹515" }, "chicken_65": { "name": "Chicken 65", "preparation_time": 25, "amount": "₹220", "cuisine_type": "South Indian", "rating": 3.6, "offer": "Two for ₹395" }, "chicken_biryani": { "name": "Chicken Biryani", "preparation_time": 50, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.8, "offer": "Two for ₹556" }, "grilled_chicken": { "name": "Grilled Chicken", "preparation_time": 35, "amount": "₹270", "cuisine_type": "Continental", "rating": 4.2, "offer": "Two for ₹481" }, "tandoori_chicken": { "name": "Tandoori Chicken", "preparation_time": 45, "amount": "₹320", "cuisine_type": "North Indian", "rating": 4.1, "offer": "Two for ₹589" }, "chicken_tikka": { "name": "Chicken Tikka", "preparation_time": 30, "amount": "₹260", "cuisine_type": "North Indian", "rating": 4.9, "offer": "Two for ₹463" }, "chicken_korma": { "name": "Chicken Korma", "preparation_time": 40, "amount": "₹290", "cuisine_type": "Mughlai", "rating": 4.4, "offer": "Two for ₹512" }, "chicken_curry": { "name": "Chicken Curry", "preparation_time": 35, "amount": "₹240", "cuisine_type": "Indian", "rating": 4.9, "offer": "Two for ₹434" }, "chicken_shawarma": { "name": "Chicken Shawarma", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Middle Eastern", "rating": 4.0, "offer": "Two for ₹315" } }, "Mutton": { "mutton_rogan_josh": { "name": "Mutton Rogan Josh", "preparation_time": 60, "amount": "₹350", "cuisine_type": "North Indian", "rating": 3.9, "offer": "Two for ₹639" }, "mutton_biryani": { "name": "Mutton Biryani", "preparation_time": 60, "amount": "₹380", "cuisine_type": "Indian", "rating": 4.3, "offer": "Two for ₹702" }, "mutton_curry": { "name": "Mutton Curry", "preparation_time": 50, "amount": "₹330", "cuisine_type": "Indian", "rating": 4.0, "offer": "Two for ₹605" }, "mutton_korma": { "name": "Mutton Korma", "preparation_time": 55, "amount": "₹360", "cuisine_type": "Mughlai", "rating": 4.7, "offer": "Two for ₹680" }, "mutton_keema": { "name": "Mutton Keema", "preparation_time": 40, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.4, "offer": "Two for ₹549" }, "mutton_fry": { "name": "Mutton Fry", "preparation_time": 45, "amount": "₹320", "cuisine_type": "South Indian", "rating": 3.7, "offer": "Two for ₹579" }, "mutton_chops": { "name": "Mutton Chops", "preparation_time": 50, "amount": "₹370", "cuisine_type": "Indian", "rating": 5.0, "offer": "Two for ₹692" }, "mutton_sukka": { "name": "Mutton Sukka", "preparation_time": 45, "amount": "₹340", "cuisine_type": "South Indian", "rating": 4.0, "offer": "Two for ₹622" }, "mutton_nihari": { "name": "Mutton Nihari", "preparation_time": 70, "amount": "₹390", "cuisine_type": "Mughlai", "rating": 3.7, "offer": "Two for ₹711" }, "mutton_stew": { "name": "Mutton Stew", "preparation_time": 50, "amount": "₹310", "cuisine_type": "South Indian", "rating": 5.0, "offer": "Two for ₹565" } }, "Burger": { "veg_burger": { "name": "Veg Burger", "preparation_time": 15, "amount": "₹100", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹159" }, "chicken_burger": { "name": "Chicken Burger", "preparation_time": 20, "amount": "₹130", "cuisine_type": "Western", "rating": 4.5, "offer": "Two for ₹201" }, "cheese_burger": { "name": "Cheese Burger", "preparation_time": 15, "amount": "₹120", "cuisine_type": "American", "rating": 4.3, "offer": "Two for ₹175" }, "double_patty_burger": { "name": "Double Patty Burger", "preparation_time": 20, "amount": "₹150", "cuisine_type": "American", "rating": 4.7, "offer": "Two for ₹247" }, "paneer_burger": { "name": "Paneer Burger", "preparation_time": 15, "amount": "₹110", "cuisine_type": "Indian", "rating": 3.9, "offer": "Two for ₹167" }, "fish_burger": { "name": "Fish Burger", "preparation_time": 20, "amount": "₹140", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹218" }, "mutton_burger": { "name": "Mutton Burger", "preparation_time": 25, "amount": "₹160", "cuisine_type": "Western", "rating": 4.6, "offer": "Two for ₹266" }, "egg_burger": { "name": "Egg Burger", "preparation_time": 15, "amount": "₹90", "cuisine_type": "Indian", "rating": 4.7, "offer": "Two for ₹140" }, "spicy_chicken_burger": { "name": "Spicy Chicken Burger", "preparation_time": 20, "amount": "₹135", "cuisine_type": "American", "rating": 4.4, "offer": "Two for ₹221" }, "grilled_veg_burger": { "name": "Grilled Veg Burger", "preparation_time": 20, "amount": "₹115", "cuisine_type": "Fusion", "rating": 3.8, "offer": "Two for ₹186" } }, "South Indian": { "masala_dosa": { "name": "Masala Dosa", "preparation_time": 30, "amount": "₹80", "cuisine_type": "South Indian", "rating": 4.3, "offer": "Two for ₹112" }, "idly_sambar": { "name": "Idli Sambar", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.9, "offer": "Two for ₹64" }, "vada": { "name": "Vada", "preparation_time": 25, "amount": "₹50", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹55" }, "uttapam": { "name": "Uttapam", "preparation_time": 25, "amount": "₹70", "cuisine_type": "South Indian", "rating": 3.9, "offer": "Two for ₹98" }, "pongal": { "name": "Pongal", "preparation_time": 30, "amount": "₹75", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹82" }, "rava_dosa": { "name": "Rava Dosa", "preparation_time": 35, "amount": "₹85", "cuisine_type": "South Indian", "rating": 4.1, "offer": "Two for ₹110" }, "appam_with_stew": { "name": "Appam with Stew", "preparation_time": 30, "amount": "₹90", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹139" }, "neer_dosa": { "name": "Neer Dosa", "preparation_time": 20, "amount": "₹70", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹73" }, "upma": { "name": "Upma", "preparation_time": 15, "amount": "₹50", "cuisine_type": "South Indian", "rating": 3.8, "offer": "Two for ₹41" }, "kuzhi_paniyaram": { "name": "Kuzhi Paniyaram", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.4, "offer": "Two for ₹72" } }, "Pizza": { "margherita_pizza": { "name": "Margherita Pizza", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Italian", "rating": 4.5, "offer": "Two for ₹316" }, "farmhouse_pizza": { "name": "Farmhouse Pizza", "preparation_time": 25, "amount": "₹250", "cuisine_type": "Italian", "rating": 4.2, "offer": "Two for ₹450" }, "paneer_tikka_pizza": { "name": "Paneer Tikka Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Indian-Italian", "rating": 4.7, "offer": "Two for ₹482" }, "pepperoni_pizza": { "name": "Pepperoni Pizza", "preparation_time": 30, "amount": "₹320", "cuisine_type": "Italian", "rating": 4.8, "offer": "Two for ₹582" }, "veggie_supreme_pizza": { "name": "Veggie Supreme Pizza", "preparation_time": 25, "amount": "₹260", "cuisine_type": "Italian", "rating": 4.3, "offer": "Two for ₹453" }, "chicken_sausage_pizza": { "name": "Chicken Sausage Pizza", "preparation_time": 30, "amount": "₹310", "cuisine_type": "Italian", "rating": 3.8, "offer": "Two for ₹564" }, "BBQ_Chicken_Pizza": { "name": "BBQ Chicken Pizza", "preparation_time": 30, "amount": "₹330", "cuisine_type": "Italian-American", "rating": 5.0, "offer": "Two for ₹597" }, "cheese_burst_pizza": { "name": "Cheese Burst Pizza", "preparation_time": 30, "amount": "₹290", "cuisine_type": "Italian", "rating": 4.6, "offer": "Two for ₹515" }, "Mexican_Green_Wave_Pizza": { "name": "Mexican Green Wave Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Fusion", "rating": 4.4, "offer": "Two for ₹474" }, "four_cheese_pizza": { "name": "Four Cheese Pizza", "preparation_time": 30, "amount": "₹350", "cuisine_type": "Italian", "rating": 3.9, "offer": "Two for ₹635" } } };
@@ -122,4 +124,53 @@
         }
     }
     $('#res_recom').html(show_recom);
+
+    var show_categ = ''
+    for(var i in jsonData.dishes){
+        show_categ += ` <div class='mind_show_categ'>
+                            <img src="" alt="" class="mind_img">
+                            <span class='food_name'>${i}</span>
+                        </div>`
+    }
+    $("#mind_food").html(show_categ)
 })();
+
+function search_dish(){
+    var get_search_input = $("#food_search").val()
+    var generate_search = ''
+    $("#search_span").html(`<span class='span_heading_1'>Search results for “${get_search_input}”</span>`)
+    if(get_search_input.length > 0){
+        for(var i in jsonData.dishes){
+            for(var j in jsonData.dishes[i]){
+                if(j.includes(get_search_input)){
+                    generate_search += `<div class='search_res_container'>
+                                            <img src="" alt="" class='search_res_img'>
+                                            <div class='search_con_r'>
+                                                <span class='food_name'>${jsonData.dishes[i][j]['name']}</span>
+                                                <span class='food_name_g'>${jsonData.dishes[i][j]['cuisine_type']}</span>
+                                                <div class='search_con_rate'>
+                                                    <span class='food_name'>
+                                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path opacity="0.75" d="M20.4194 1.58928C20.2343 1.40207 20.0138 1.25355 19.7708 1.15238C19.5278 1.05122 19.267 0.999418 19.0038 1H13.516C13.156 1.00068 12.8108 1.14328 12.5553 1.39687L1.58458 12.3654C1.21024 12.7405 1 13.2488 1 13.7787C1 14.3087 1.21024 14.817 1.58458 15.1921L6.80767 20.4152C7.18288 20.7897 7.69135 21 8.22147 21C8.7516 21 9.26007 20.7897 9.63528 20.4152L20.6015 9.45114C20.8556 9.19604 20.9987 8.85095 20.9997 8.49089V2.99996C21.0014 2.73809 20.9509 2.47851 20.8513 2.23633C20.7516 1.99414 20.6048 1.77419 20.4194 1.58928ZM16.7141 6.71415C16.4316 6.71415 16.1554 6.63037 15.9205 6.4734C15.6855 6.31643 15.5025 6.09332 15.3943 5.83229C15.2862 5.57126 15.2579 5.28403 15.313 5.00692C15.3682 4.72981 15.5042 4.47527 15.704 4.27549C15.9038 4.0757 16.1583 3.93965 16.4354 3.88453C16.7125 3.82941 16.9998 3.8577 17.2608 3.96582C17.5218 4.07394 17.7449 4.25704 17.9019 4.49196C18.0589 4.72688 18.1427 5.00308 18.1427 5.28561C18.1427 5.66449 17.9922 6.02784 17.7243 6.29574C17.4563 6.56364 17.093 6.71415 16.7141 6.71415Z" stroke="#FC8019" stroke-width="1.5"/>
+                                                        </svg>
+                                                        ${jsonData.dishes[i][j]['amount']}
+                                                    </span>
+                                                    <span class='food_name'>
+                                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g opacity="0.75">
+                                                                <path d="M8.90123 13.4567L11.8642 14.4444C11.8642 14.4444 19.2716 12.9629 20.2593 12.9629C21.2469 12.9629 21.2469 13.9505 20.2593 14.9382C19.2716 15.9259 15.8148 18.8888 12.8519 18.8888C9.88889 18.8888 7.91358 17.4073 5.93827 17.4073H1" stroke="#FC8019" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M1 11.4815C1.98765 10.4938 3.96296 9.01232 5.93827 9.01232C7.91358 9.01232 12.6049 10.9876 13.3457 11.9753C14.0864 12.9629 11.8642 14.4444 11.8642 14.4444M6.92593 6.04936V2.09874C6.92593 1.8368 7.02998 1.58558 7.2152 1.40036C7.40042 1.21514 7.65164 1.11108 7.91358 1.11108H19.7654C20.0274 1.11108 20.2786 1.21514 20.4638 1.40036C20.649 1.58558 20.7531 1.8368 20.7531 2.09874V9.99997" stroke="#FC8019" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                <path d="M11.3702 1.11108H16.3085V5.55553H11.3702V1.11108Z" stroke="#FC8019" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </g>
+                                                        </svg>
+                                                        ${jsonData.dishes[i][j]['preparation_time']} mins
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>`
+                }
+            }
+        }
+    }
+    $("#show_res_id").html(generate_search)
+}

@@ -68,13 +68,30 @@
             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 20.3333H13.125L15.6862 17.7708L11.775 13.8583L13.5375 12.0958L17.45 16.0071L20 13.4583V20.3333ZM1.7625 20.3333L0 18.5708L15.675 2.88331L13.125 0.333313H20V7.20831L17.45 4.65831L1.76375 20.3333H1.7625ZM6.4625 8.55831L0 2.09581L1.7625 0.333313L8.2375 6.79581L6.4625 8.55706V8.55831Z" fill="white"/>
             </svg>
-            <label for="input_search" class="label_input">
-                <input type="text" id="input_search" placeholder="Search by Food Name">
+            <label for="food_search" class="label_input">
+                <input type="text" id="food_search" placeholder="Search by Food Name">
             </label>
-            <button class="search_container_btn">Search Now</button>
+            <button class="search_container_btn" onclick="search_dish()">Search Now</button>
+        </div>
+        <div class="mind_container">
+            <span class="span_heading_1">What’s on your mind?</span>
+            <div id="mind_food"></div>
+            <div class="search_res">
+                <span class="span_heading_1" id="search_span"></span>
+                <div class="show_res" id="show_res_id"></div>
+            </div>
         </div>
     </section>
-
+    <footer class="footer">
+        <img class="footer_img" src="images/logo/logo_white.png" alt="logo">
+        <div class="footer_content">
+            <span class="footer_span">About</span>
+            <span class="footer_span">Delivery</span>
+            <span class="footer_span">Help & Support</span>
+            <span class="footer_span">T&C</span>
+        </div>
+        <span class="footer_span">Contact: +44 1234 567890</span>
+    </footer>
 
     <script src="js/app.js"></script>
 </body>
