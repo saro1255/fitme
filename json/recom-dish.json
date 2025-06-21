@@ -1,0 +1,6 @@
+{
+    "Chicken": ["chicken_tikka"],
+    "Mutton": ["mutton_korma"],
+    "Burger": ["paneer_burger"],
+    "South Indian": ["rava_dosa"]
+}

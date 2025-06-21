@@ -1,0 +1,266 @@
+// importing Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Variables
+$primary-color-w: #ffffff;
+$primary-color-b: #000000;
+$secondary-color: #FC8019;
+$secondary-color-b: #202020;
+$secondary-color-g: #808080;
+$secondary-color-r: #F8F8F8;
+$primary-padding: 0px 30px 0px 30px;
+$primary-font: 'Poppins', sans-serif;
+$secondry-font: 'Inter', sans-serif;
+
+// Global Styles
+body {
+    background-color: $primary-color-w;
+    overflow-x: hidden;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $primary-padding;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.default_btn {
+    border: 1px solid $secondary-color;
+    height: 40px;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: $secondry-font;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: $primary-color-w;
+    outline: none;
+}
+
+.default_btn:hover {
+    background-color: $secondary-color;
+    color: #fff;
+}
+
+.top-content {
+    margin: 0px 0px 0px 30px;
+    overflow: hidden;
+}
+
+.front-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-span {
+    font-family: $primary-font;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    color: $secondary-color-b;
+}
+
+.front-span-highlight {
+    color: $secondary-color;
+}
+
+.front-span-imgC {
+    background-color: #FFD0D0;
+    border-radius: 30px;
+    padding: 0px 30px 0px 30px;
+}
+
+.front-span-img {
+    width: 40px;
+}
+
+.front-right-container {
+	width: 100%;
+	padding: 0px;
+}
+
+.right-content {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	width: 100%;
+}
+
+.front-img-card:first-child img {
+	width: 340px;
+	height: 550px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.front-img-card:nth-child(2) img {
+	width: 300px;
+	height: 500px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.front-img-card:nth-child(3) img {
+	width: 300px;
+	height: 450px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.front-img-card-flipping {
+	transition-duration: 1s;
+	transition: transform 0.6s;
+	transition-delay: 2s;
+	transition-property: rotateY(360deg);
+}
+
+.span_heading{
+    font-family: $primary-font;
+    font-size: 15px;
+    font-weight: 500;
+    color: $secondary-color-b;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.show_spl{
+    margin-top: 30px;
+}
+
+.show_grid{
+    padding: 0px 40px 0px 40px;
+}
+
+.show_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.product-card{
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: $secondary-color-r;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px #ebebed;
+}
+
+.product-img{
+    height: 74%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-name{
+    font-family: $primary-font;
+    font-size: 20px;
+    color: $secondary-color-b;
+}
+
+.product-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-cusine{
+    font-family: $secondry-font;
+    font-size: 16px;
+    color: $secondary-color-g;
+}
+
+.product-add{
+    font-family: $secondry-font;
+    font-size: 16px;
+    color: $secondary-color-b;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: $secondary-color;
+    gap: 25px;
+}
+
+.label_text{
+    font-family: $primary-font;
+    font-size: 20px;
+    color: $primary-color-w;
+    font-weight: 500;
+}
+
+.label_input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: 1px solid $primary-color-w;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+#input_search{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: $primary-color-w;
+    font-family: $secondry-font;
+    font-size: 14px;
+    color: $primary-color-w;
+    font-weight: 300;
+    background: none;
+}
+
+#input_search::placeholder {
+    color: $primary-color-w;
+    font-family: $secondry-font;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.search_container_btn{
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    background-color: $primary-color-b;
+    color: $primary-color-w;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: $secondry-font;
+    font-size: 14px;
+    font-weight: 500;
+}
