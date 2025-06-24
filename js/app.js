@@ -24,8 +24,8 @@ let jsonData = {};
     jsonData = {}
     jsonData['day_Spl'] = { "Chicken": ["butter_chicken"], "Mutton": ["mutton_biryani"], "Burger": ["spicy_chicken_burger"], "South Indian": ["masala_dosa"] };
     jsonData['recom_dish'] = { "Chicken": ["chicken_tikka"], "Mutton": ["mutton_korma"], "Burger": ["paneer_burger"], "South Indian": ["rava_dosa"] };
-    jsonData['dishes'] = {"Chicken": { "butter_chicken": { "name": "Butter Chicken", "preparation_time": 45, "amount": "₹250", "cuisine_type": "North Indian", "rating": 4.5, "offer": "Two for ₹455" }, "chicken_chettinad": { "name": "Chicken Chettinad", "preparation_time": 40, "amount": "₹280", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹515" }, "chicken_65": { "name": "Chicken 65", "preparation_time": 25, "amount": "₹220", "cuisine_type": "South Indian", "rating": 3.6, "offer": "Two for ₹395" }, "chicken_biryani": { "name": "Chicken Biryani", "preparation_time": 50, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.8, "offer": "Two for ₹556" }, "grilled_chicken": { "name": "Grilled Chicken", "preparation_time": 35, "amount": "₹270", "cuisine_type": "Continental", "rating": 4.2, "offer": "Two for ₹481" }, "tandoori_chicken": { "name": "Tandoori Chicken", "preparation_time": 45, "amount": "₹320", "cuisine_type": "North Indian", "rating": 4.1, "offer": "Two for ₹589" }, "chicken_tikka": { "name": "Chicken Tikka", "preparation_time": 30, "amount": "₹260", "cuisine_type": "North Indian", "rating": 4.9, "offer": "Two for ₹463" }, "chicken_korma": { "name": "Chicken Korma", "preparation_time": 40, "amount": "₹290", "cuisine_type": "Mughlai", "rating": 4.4, "offer": "Two for ₹512" }, "chicken_curry": { "name": "Chicken Curry", "preparation_time": 35, "amount": "₹240", "cuisine_type": "Indian", "rating": 4.9, "offer": "Two for ₹434" }, "chicken_shawarma": { "name": "Chicken Shawarma", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Middle Eastern", "rating": 4.0, "offer": "Two for ₹315" } }, "Mutton": { "mutton_rogan_josh": { "name": "Mutton Rogan Josh", "preparation_time": 60, "amount": "₹350", "cuisine_type": "North Indian", "rating": 3.9, "offer": "Two for ₹639" }, "mutton_biryani": { "name": "Mutton Biryani", "preparation_time": 60, "amount": "₹380", "cuisine_type": "Indian", "rating": 4.3, "offer": "Two for ₹702" }, "mutton_curry": { "name": "Mutton Curry", "preparation_time": 50, "amount": "₹330", "cuisine_type": "Indian", "rating": 4.0, "offer": "Two for ₹605" }, "mutton_korma": { "name": "Mutton Korma", "preparation_time": 55, "amount": "₹360", "cuisine_type": "Mughlai", "rating": 4.7, "offer": "Two for ₹680" }, "mutton_keema": { "name": "Mutton Keema", "preparation_time": 40, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.4, "offer": "Two for ₹549" }, "mutton_fry": { "name": "Mutton Fry", "preparation_time": 45, "amount": "₹320", "cuisine_type": "South Indian", "rating": 3.7, "offer": "Two for ₹579" }, "mutton_chops": { "name": "Mutton Chops", "preparation_time": 50, "amount": "₹370", "cuisine_type": "Indian", "rating": 5.0, "offer": "Two for ₹692" }, "mutton_sukka": { "name": "Mutton Sukka", "preparation_time": 45, "amount": "₹340", "cuisine_type": "South Indian", "rating": 4.0, "offer": "Two for ₹622" }, "mutton_nihari": { "name": "Mutton Nihari", "preparation_time": 70, "amount": "₹390", "cuisine_type": "Mughlai", "rating": 3.7, "offer": "Two for ₹711" }, "mutton_stew": { "name": "Mutton Stew", "preparation_time": 50, "amount": "₹310", "cuisine_type": "South Indian", "rating": 5.0, "offer": "Two for ₹565" } }, "Burger": { "veg_burger": { "name": "Veg Burger", "preparation_time": 15, "amount": "₹100", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹159" }, "chicken_burger": { "name": "Chicken Burger", "preparation_time": 20, "amount": "₹130", "cuisine_type": "Western", "rating": 4.5, "offer": "Two for ₹201" }, "cheese_burger": { "name": "Cheese Burger", "preparation_time": 15, "amount": "₹120", "cuisine_type": "American", "rating": 4.3, "offer": "Two for ₹175" }, "double_patty_burger": { "name": "Double Patty Burger", "preparation_time": 20, "amount": "₹150", "cuisine_type": "American", "rating": 4.7, "offer": "Two for ₹247" }, "paneer_burger": { "name": "Paneer Burger", "preparation_time": 15, "amount": "₹110", "cuisine_type": "Indian", "rating": 3.9, "offer": "Two for ₹167" }, "fish_burger": { "name": "Fish Burger", "preparation_time": 20, "amount": "₹140", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹218" }, "mutton_burger": { "name": "Mutton Burger", "preparation_time": 25, "amount": "₹160", "cuisine_type": "Western", "rating": 4.6, "offer": "Two for ₹266" }, "egg_burger": { "name": "Egg Burger", "preparation_time": 15, "amount": "₹90", "cuisine_type": "Indian", "rating": 4.7, "offer": "Two for ₹140" }, "spicy_chicken_burger": { "name": "Spicy Chicken Burger", "preparation_time": 20, "amount": "₹135", "cuisine_type": "American", "rating": 4.4, "offer": "Two for ₹221" }, "grilled_veg_burger": { "name": "Grilled Veg Burger", "preparation_time": 20, "amount": "₹115", "cuisine_type": "Fusion", "rating": 3.8, "offer": "Two for ₹186" } }, "South Indian": { "masala_dosa": { "name": "Masala Dosa", "preparation_time": 30, "amount": "₹80", "cuisine_type": "South Indian", "rating": 4.3, "offer": "Two for ₹112" }, "idly_sambar": { "name": "Idli Sambar", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.9, "offer": "Two for ₹64" }, "vada": { "name": "Vada", "preparation_time": 25, "amount": "₹50", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹55" }, "uttapam": { "name": "Uttapam", "preparation_time": 25, "amount": "₹70", "cuisine_type": "South Indian", "rating": 3.9, "offer": "Two for ₹98" }, "pongal": { "name": "Pongal", "preparation_time": 30, "amount": "₹75", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹82" }, "rava_dosa": { "name": "Rava Dosa", "preparation_time": 35, "amount": "₹85", "cuisine_type": "South Indian", "rating": 4.1, "offer": "Two for ₹110" }, "appam_with_stew": { "name": "Appam with Stew", "preparation_time": 30, "amount": "₹90", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹139" }, "neer_dosa": { "name": "Neer Dosa", "preparation_time": 20, "amount": "₹70", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹73" }, "upma": { "name": "Upma", "preparation_time": 15, "amount": "₹50", "cuisine_type": "South Indian", "rating": 3.8, "offer": "Two for ₹41" }, "kuzhi_paniyaram": { "name": "Kuzhi Paniyaram", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.4, "offer": "Two for ₹72" } }, "Pizza": { "margherita_pizza": { "name": "Margherita Pizza", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Italian", "rating": 4.5, "offer": "Two for ₹316" }, "farmhouse_pizza": { "name": "Farmhouse Pizza", "preparation_time": 25, "amount": "₹250", "cuisine_type": "Italian", "rating": 4.2, "offer": "Two for ₹450" }, "paneer_tikka_pizza": { "name": "Paneer Tikka Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Indian-Italian", "rating": 4.7, "offer": "Two for ₹482" }, "pepperoni_pizza": { "name": "Pepperoni Pizza", "preparation_time": 30, "amount": "₹320", "cuisine_type": "Italian", "rating": 4.8, "offer": "Two for ₹582" }, "veggie_supreme_pizza": { "name": "Veggie Supreme Pizza", "preparation_time": 25, "amount": "₹260", "cuisine_type": "Italian", "rating": 4.3, "offer": "Two for ₹453" }, "chicken_sausage_pizza": { "name": "Chicken Sausage Pizza", "preparation_time": 30, "amount": "₹310", "cuisine_type": "Italian", "rating": 3.8, "offer": "Two for ₹564" }, "BBQ_Chicken_Pizza": { "name": "BBQ Chicken Pizza", "preparation_time": 30, "amount": "₹330", "cuisine_type": "Italian-American", "rating": 5.0, "offer": "Two for ₹597" }, "cheese_burst_pizza": { "name": "Cheese Burst Pizza", "preparation_time": 30, "amount": "₹290", "cuisine_type": "Italian", "rating": 4.6, "offer": "Two for ₹515" }, "Mexican_Green_Wave_Pizza": { "name": "Mexican Green Wave Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Fusion", "rating": 4.4, "offer": "Two for ₹474" }, "four_cheese_pizza": { "name": "Four Cheese Pizza", "preparation_time": 30, "amount": "₹350", "cuisine_type": "Italian", "rating": 3.9, "offer": "Two for ₹635" } } };
-    
+    jsonData['dishes'] = { "Chicken": { "butter_chicken": { "name": "Butter Chicken", "preparation_time": 45, "amount": "₹250", "cuisine_type": "North Indian", "rating": 4.5, "offer": "Two for ₹455" }, "chicken_chettinad": { "name": "Chicken Chettinad", "preparation_time": 40, "amount": "₹280", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹515" }, "chicken_65": { "name": "Chicken 65", "preparation_time": 25, "amount": "₹220", "cuisine_type": "South Indian", "rating": 3.6, "offer": "Two for ₹395" }, "chicken_biryani": { "name": "Chicken Biryani", "preparation_time": 50, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.8, "offer": "Two for ₹556" }, "grilled_chicken": { "name": "Grilled Chicken", "preparation_time": 35, "amount": "₹270", "cuisine_type": "Continental", "rating": 4.2, "offer": "Two for ₹481" }, "tandoori_chicken": { "name": "Tandoori Chicken", "preparation_time": 45, "amount": "₹320", "cuisine_type": "North Indian", "rating": 4.1, "offer": "Two for ₹589" }, "chicken_tikka": { "name": "Chicken Tikka", "preparation_time": 30, "amount": "₹260", "cuisine_type": "North Indian", "rating": 4.9, "offer": "Two for ₹463" }, "chicken_korma": { "name": "Chicken Korma", "preparation_time": 40, "amount": "₹290", "cuisine_type": "Mughlai", "rating": 4.4, "offer": "Two for ₹512" }, "chicken_curry": { "name": "Chicken Curry", "preparation_time": 35, "amount": "₹240", "cuisine_type": "Indian", "rating": 4.9, "offer": "Two for ₹434" }, "chicken_shawarma": { "name": "Chicken Shawarma", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Middle Eastern", "rating": 4.0, "offer": "Two for ₹315" } }, "Mutton": { "mutton_rogan_josh": { "name": "Mutton Rogan Josh", "preparation_time": 60, "amount": "₹350", "cuisine_type": "North Indian", "rating": 3.9, "offer": "Two for ₹639" }, "mutton_biryani": { "name": "Mutton Biryani", "preparation_time": 60, "amount": "₹380", "cuisine_type": "Indian", "rating": 4.3, "offer": "Two for ₹702" }, "mutton_curry": { "name": "Mutton Curry", "preparation_time": 50, "amount": "₹330", "cuisine_type": "Indian", "rating": 4.0, "offer": "Two for ₹605" }, "mutton_korma": { "name": "Mutton Korma", "preparation_time": 55, "amount": "₹360", "cuisine_type": "Mughlai", "rating": 4.7, "offer": "Two for ₹680" }, "mutton_keema": { "name": "Mutton Keema", "preparation_time": 40, "amount": "₹300", "cuisine_type": "Indian", "rating": 4.4, "offer": "Two for ₹549" }, "mutton_fry": { "name": "Mutton Fry", "preparation_time": 45, "amount": "₹320", "cuisine_type": "South Indian", "rating": 3.7, "offer": "Two for ₹579" }, "mutton_chops": { "name": "Mutton Chops", "preparation_time": 50, "amount": "₹370", "cuisine_type": "Indian", "rating": 5.0, "offer": "Two for ₹692" }, "mutton_sukka": { "name": "Mutton Sukka", "preparation_time": 45, "amount": "₹340", "cuisine_type": "South Indian", "rating": 4.0, "offer": "Two for ₹622" }, "mutton_nihari": { "name": "Mutton Nihari", "preparation_time": 70, "amount": "₹390", "cuisine_type": "Mughlai", "rating": 3.7, "offer": "Two for ₹711" }, "mutton_stew": { "name": "Mutton Stew", "preparation_time": 50, "amount": "₹310", "cuisine_type": "South Indian", "rating": 5.0, "offer": "Two for ₹565" } }, "Burger": { "veg_burger": { "name": "Veg Burger", "preparation_time": 15, "amount": "₹100", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹159" }, "chicken_burger": { "name": "Chicken Burger", "preparation_time": 20, "amount": "₹130", "cuisine_type": "Western", "rating": 4.5, "offer": "Two for ₹201" }, "cheese_burger": { "name": "Cheese Burger", "preparation_time": 15, "amount": "₹120", "cuisine_type": "American", "rating": 4.3, "offer": "Two for ₹175" }, "double_patty_burger": { "name": "Double Patty Burger", "preparation_time": 20, "amount": "₹150", "cuisine_type": "American", "rating": 4.7, "offer": "Two for ₹247" }, "paneer_burger": { "name": "Paneer Burger", "preparation_time": 15, "amount": "₹110", "cuisine_type": "Indian", "rating": 3.9, "offer": "Two for ₹167" }, "fish_burger": { "name": "Fish Burger", "preparation_time": 20, "amount": "₹140", "cuisine_type": "Western", "rating": 4.7, "offer": "Two for ₹218" }, "mutton_burger": { "name": "Mutton Burger", "preparation_time": 25, "amount": "₹160", "cuisine_type": "Western", "rating": 4.6, "offer": "Two for ₹266" }, "egg_burger": { "name": "Egg Burger", "preparation_time": 15, "amount": "₹90", "cuisine_type": "Indian", "rating": 4.7, "offer": "Two for ₹140" }, "spicy_chicken_burger": { "name": "Spicy Chicken Burger", "preparation_time": 20, "amount": "₹135", "cuisine_type": "American", "rating": 4.4, "offer": "Two for ₹221" }, "grilled_veg_burger": { "name": "Grilled Veg Burger", "preparation_time": 20, "amount": "₹115", "cuisine_type": "Fusion", "rating": 3.8, "offer": "Two for ₹186" } }, "South Indian": { "masala_dosa": { "name": "Masala Dosa", "preparation_time": 30, "amount": "₹80", "cuisine_type": "South Indian", "rating": 4.3, "offer": "Two for ₹112" }, "idly_sambar": { "name": "Idli Sambar", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.9, "offer": "Two for ₹64" }, "vada": { "name": "Vada", "preparation_time": 25, "amount": "₹50", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹55" }, "uttapam": { "name": "Uttapam", "preparation_time": 25, "amount": "₹70", "cuisine_type": "South Indian", "rating": 3.9, "offer": "Two for ₹98" }, "pongal": { "name": "Pongal", "preparation_time": 30, "amount": "₹75", "cuisine_type": "South Indian", "rating": 4.5, "offer": "Two for ₹82" }, "rava_dosa": { "name": "Rava Dosa", "preparation_time": 35, "amount": "₹85", "cuisine_type": "South Indian", "rating": 4.1, "offer": "Two for ₹110" }, "appam_with_stew": { "name": "Appam with Stew", "preparation_time": 30, "amount": "₹90", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹139" }, "neer_dosa": { "name": "Neer Dosa", "preparation_time": 20, "amount": "₹70", "cuisine_type": "South Indian", "rating": 4.8, "offer": "Two for ₹73" }, "upma": { "name": "Upma", "preparation_time": 15, "amount": "₹50", "cuisine_type": "South Indian", "rating": 3.8, "offer": "Two for ₹41" }, "kuzhi_paniyaram": { "name": "Kuzhi Paniyaram", "preparation_time": 20, "amount": "₹60", "cuisine_type": "South Indian", "rating": 4.4, "offer": "Two for ₹72" } }, "Pizza": { "margherita_pizza": { "name": "Margherita Pizza", "preparation_time": 20, "amount": "₹180", "cuisine_type": "Italian", "rating": 4.5, "offer": "Two for ₹316" }, "farmhouse_pizza": { "name": "Farmhouse Pizza", "preparation_time": 25, "amount": "₹250", "cuisine_type": "Italian", "rating": 4.2, "offer": "Two for ₹450" }, "paneer_tikka_pizza": { "name": "Paneer Tikka Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Indian-Italian", "rating": 4.7, "offer": "Two for ₹482" }, "pepperoni_pizza": { "name": "Pepperoni Pizza", "preparation_time": 30, "amount": "₹320", "cuisine_type": "Italian", "rating": 4.8, "offer": "Two for ₹582" }, "veggie_supreme_pizza": { "name": "Veggie Supreme Pizza", "preparation_time": 25, "amount": "₹260", "cuisine_type": "Italian", "rating": 4.3, "offer": "Two for ₹453" }, "chicken_sausage_pizza": { "name": "Chicken Sausage Pizza", "preparation_time": 30, "amount": "₹310", "cuisine_type": "Italian", "rating": 3.8, "offer": "Two for ₹564" }, "BBQ_Chicken_Pizza": { "name": "BBQ Chicken Pizza", "preparation_time": 30, "amount": "₹330", "cuisine_type": "Italian-American", "rating": 5.0, "offer": "Two for ₹597" }, "cheese_burst_pizza": { "name": "Cheese Burst Pizza", "preparation_time": 30, "amount": "₹290", "cuisine_type": "Italian", "rating": 4.6, "offer": "Two for ₹515" }, "Mexican_Green_Wave_Pizza": { "name": "Mexican Green Wave Pizza", "preparation_time": 25, "amount": "₹270", "cuisine_type": "Fusion", "rating": 4.4, "offer": "Two for ₹474" }, "four_cheese_pizza": { "name": "Four Cheese Pizza", "preparation_time": 30, "amount": "₹350", "cuisine_type": "Italian", "rating": 3.9, "offer": "Two for ₹635" } } };
+
     // using vscode live server
     // const fetchJson = async (url, label = "data") => {
     //     try {
@@ -126,7 +126,7 @@ let jsonData = {};
     $('#res_recom').html(show_recom);
 
     var show_categ = ''
-    for(var i in jsonData.dishes){
+    for (var i in jsonData.dishes) {
         show_categ += ` <div class='mind_show_categ'>
                             <img src="" alt="" class="mind_img">
                             <span class='food_name'>${i}</span>
@@ -135,14 +135,14 @@ let jsonData = {};
     $("#mind_food").html(show_categ)
 })();
 
-function search_dish(){
+function search_dish() {
     var get_search_input = $("#food_search").val()
     var generate_search = ''
     $("#search_span").html(`<span class='span_heading_1'>Search results for “${get_search_input}”</span>`)
-    if(get_search_input.length > 0){
-        for(var i in jsonData.dishes){
-            for(var j in jsonData.dishes[i]){
-                if(j.includes(get_search_input)){
+    if (get_search_input.length > 0) {
+        for (var i in jsonData.dishes) {
+            for (var j in jsonData.dishes[i]) {
+                if (j.includes(get_search_input)) {
                     generate_search += `<div class='search_res_container'>
                                             <img src="" alt="" class='search_res_img'>
                                             <div class='search_con_r'>
@@ -173,4 +173,112 @@ function search_dish(){
         }
     }
     $("#show_res_id").html(generate_search)
+}
+
+function div_functionality(div_id){
+    var div_id_array = ['main_div','checkout_div','pay_div']
+    for(var i in div_id_array){
+        if(div_id_array[i] != div_id){
+            $(`#${div_id_array[i]}`).removeClass('show_div')
+            $(`#${div_id_array[i]}`).addClass('hide_div')
+        }
+    }
+    $(`#${div_id}`).addClass('show_div')
+    $(`#${div_id}`).removeClass('hide_div')
+}
+
+function show_main(){
+    div_functionality('main_div')
+}
+
+function selected_meals(){
+    div_functionality('checkout_div')
+    var checkout_div = `<div class="checkout_container">
+                            <div class="checkout_main row">
+                                <div class="col-3">
+                                    <img class="checkout_img" src="" alt="">
+                                </div>
+                                <div class="col-5 checkout_content">
+                                    <span class="checkout_m_show">LunchBox - Meals and Thalis</span>
+                                    <span class="checkout_c_show">North Indian, Punjabi</span>
+                                    <div class="checkout_others">
+                                        <div class="info-container">
+                                            <div class="info-block">
+                                                <span class="star">★</span>
+                                                <span class="rating">4.0</span>
+                                                <div class="subtext">100+ ratings</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="info-block">
+                                                <span class="rating">30 Mins</span>
+                                                <div class="subtext">Delivery Time</div>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="info-block">
+                                                <span class="rating">₹200</span>
+                                                <div class="subtext">Cost for two</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="checkout_offer_c">
+                                        <span>Offers</span>
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.7609 9.99999L19.8663 8.08969C19.9991 7.85986 20.0352 7.58667 19.9667 7.33021C19.8982 7.07374 19.7306 6.85499 19.5008 6.72205L17.5885 5.61672V3.41407C17.5885 3.14854 17.483 2.89388 17.2953 2.70612C17.1075 2.51835 16.8529 2.41287 16.5873 2.41287H14.3857L13.2813 0.501575C13.148 0.272216 12.9296 0.104604 12.6736 0.0350146C12.5466 0.000589099 12.4141 -0.00828766 12.2836 0.00889877C12.1532 0.0260852 12.0274 0.0689931 11.9137 0.135135L10.0014 1.24046L8.08911 0.134134C7.85915 0.00137182 7.58588 -0.034606 7.3294 0.0341144C7.07292 0.102835 6.85424 0.270625 6.72146 0.500574L5.61614 2.41287H3.41449C3.14896 2.41287 2.8943 2.51835 2.70654 2.70612C2.51877 2.89388 2.41329 3.14854 2.41329 3.41407V5.61572L0.500992 6.72105C0.386887 6.78668 0.286876 6.87421 0.206703 6.97862C0.126531 7.08302 0.0677781 7.20224 0.0338202 7.32942C-0.000137755 7.4566 -0.00863139 7.58923 0.00882726 7.71971C0.0262859 7.85018 0.0693526 7.97591 0.135553 8.08969L1.24088 9.99999L0.135553 11.9103C0.00338332 12.1403 -0.0324765 12.4133 0.0357919 12.6697C0.10406 12.9261 0.27092 13.1451 0.499991 13.2789L2.41229 14.3843V16.5859C2.41229 16.8514 2.51777 17.1061 2.70553 17.2939C2.8933 17.4816 3.14796 17.5871 3.41349 17.5871H5.61614L6.72146 19.4994C6.8101 19.6509 6.93666 19.7768 7.08868 19.8645C7.24071 19.9523 7.41296 19.999 7.58851 20C7.76272 20 7.93592 19.9539 8.09011 19.8648L10.0004 18.7595L11.9127 19.8648C12.1426 19.9974 12.4157 20.0334 12.6721 19.9649C12.9285 19.8964 13.1472 19.729 13.2803 19.4994L14.3847 17.5871H16.5863C16.8519 17.5871 17.1065 17.4816 17.2943 17.2939C17.482 17.1061 17.5875 16.8514 17.5875 16.5859V14.3843L19.4998 13.2789C19.6137 13.2131 19.7135 13.1255 19.7936 13.021C19.8736 12.9166 19.9322 12.7974 19.9662 12.6703C20.0001 12.5432 20.0087 12.4107 19.9914 12.2803C19.974 12.1498 19.9312 12.0241 19.8653 11.9103L18.7609 9.99999ZM7.4974 4.98396C7.89583 4.98409 8.2779 5.1425 8.55954 5.42433C8.84118 5.70616 8.99933 6.08833 8.9992 6.48677C8.99907 6.8852 8.84066 7.26727 8.55883 7.54891C8.277 7.83055 7.89483 7.9887 7.4964 7.98857C7.09796 7.98844 6.7159 7.83003 6.43425 7.5482C6.15261 7.26637 5.99446 6.8842 5.99459 6.48576C5.99472 6.08733 6.15313 5.70526 6.43496 5.42362C6.71679 5.14198 7.09896 4.98383 7.4974 4.98396ZM7.79776 14.5955L6.19583 13.3951L12.203 5.38544L13.805 6.58589L7.79776 14.5955ZM12.5034 14.996C12.3061 14.9959 12.1108 14.957 11.9285 14.8814C11.7463 14.8059 11.5807 14.6952 11.4413 14.5556C11.3018 14.4161 11.1912 14.2504 11.1158 14.0681C11.0403 13.8858 11.0015 13.6905 11.0016 13.4932C11.0017 13.2959 11.0406 13.1006 11.1162 12.9183C11.1917 12.7361 11.3024 12.5705 11.442 12.431C11.5815 12.2916 11.7472 12.181 11.9295 12.1055C12.1118 12.0301 12.3071 11.9913 12.5044 11.9914C12.9028 11.9915 13.2849 12.1499 13.5666 12.4317C13.8482 12.7136 14.0063 13.0957 14.0062 13.4942C14.0061 13.8926 13.8477 14.2747 13.5658 14.5563C13.284 14.838 12.9018 14.9961 12.5034 14.996Z" fill="#FC8019"/>
+                                            </svg>
+                                            <span class="checkout_o_span">50% off up to ₹100 | Use code TRYNEW</span>
+                                        </span>
+                                        <span>
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.7609 9.99999L19.8663 8.08969C19.9991 7.85986 20.0352 7.58667 19.9667 7.33021C19.8982 7.07374 19.7306 6.85499 19.5008 6.72205L17.5885 5.61672V3.41407C17.5885 3.14854 17.483 2.89388 17.2953 2.70612C17.1075 2.51835 16.8529 2.41287 16.5873 2.41287H14.3857L13.2813 0.501575C13.148 0.272216 12.9296 0.104604 12.6736 0.0350146C12.5466 0.000589099 12.4141 -0.00828766 12.2836 0.00889877C12.1532 0.0260852 12.0274 0.0689931 11.9137 0.135135L10.0014 1.24046L8.08911 0.134134C7.85915 0.00137182 7.58588 -0.034606 7.3294 0.0341144C7.07292 0.102835 6.85424 0.270625 6.72146 0.500574L5.61614 2.41287H3.41449C3.14896 2.41287 2.8943 2.51835 2.70654 2.70612C2.51877 2.89388 2.41329 3.14854 2.41329 3.41407V5.61572L0.500992 6.72105C0.386887 6.78668 0.286876 6.87421 0.206703 6.97862C0.126531 7.08302 0.0677781 7.20224 0.0338202 7.32942C-0.000137755 7.4566 -0.00863139 7.58923 0.00882726 7.71971C0.0262859 7.85018 0.0693526 7.97591 0.135553 8.08969L1.24088 9.99999L0.135553 11.9103C0.00338332 12.1403 -0.0324765 12.4133 0.0357919 12.6697C0.10406 12.9261 0.27092 13.1451 0.499991 13.2789L2.41229 14.3843V16.5859C2.41229 16.8514 2.51777 17.1061 2.70553 17.2939C2.8933 17.4816 3.14796 17.5871 3.41349 17.5871H5.61614L6.72146 19.4994C6.8101 19.6509 6.93666 19.7768 7.08868 19.8645C7.24071 19.9523 7.41296 19.999 7.58851 20C7.76272 20 7.93592 19.9539 8.09011 19.8648L10.0004 18.7595L11.9127 19.8648C12.1426 19.9974 12.4157 20.0334 12.6721 19.9649C12.9285 19.8964 13.1472 19.729 13.2803 19.4994L14.3847 17.5871H16.5863C16.8519 17.5871 17.1065 17.4816 17.2943 17.2939C17.482 17.1061 17.5875 16.8514 17.5875 16.5859V14.3843L19.4998 13.2789C19.6137 13.2131 19.7135 13.1255 19.7936 13.021C19.8736 12.9166 19.9322 12.7974 19.9662 12.6703C20.0001 12.5432 20.0087 12.4107 19.9914 12.2803C19.974 12.1498 19.9312 12.0241 19.8653 11.9103L18.7609 9.99999ZM7.4974 4.98396C7.89583 4.98409 8.2779 5.1425 8.55954 5.42433C8.84118 5.70616 8.99933 6.08833 8.9992 6.48677C8.99907 6.8852 8.84066 7.26727 8.55883 7.54891C8.277 7.83055 7.89483 7.9887 7.4964 7.98857C7.09796 7.98844 6.7159 7.83003 6.43425 7.5482C6.15261 7.26637 5.99446 6.8842 5.99459 6.48576C5.99472 6.08733 6.15313 5.70526 6.43496 5.42362C6.71679 5.14198 7.09896 4.98383 7.4974 4.98396ZM7.79776 14.5955L6.19583 13.3951L12.203 5.38544L13.805 6.58589L7.79776 14.5955ZM12.5034 14.996C12.3061 14.9959 12.1108 14.957 11.9285 14.8814C11.7463 14.8059 11.5807 14.6952 11.4413 14.5556C11.3018 14.4161 11.1912 14.2504 11.1158 14.0681C11.0403 13.8858 11.0015 13.6905 11.0016 13.4932C11.0017 13.2959 11.0406 13.1006 11.1162 12.9183C11.1917 12.7361 11.3024 12.5705 11.442 12.431C11.5815 12.2916 11.7472 12.181 11.9295 12.1055C12.1118 12.0301 12.3071 11.9913 12.5044 11.9914C12.9028 11.9915 13.2849 12.1499 13.5666 12.4317C13.8482 12.7136 14.0063 13.0957 14.0062 13.4942C14.0061 13.8926 13.8477 14.2747 13.5658 14.5563C13.284 14.838 12.9018 14.9961 12.5034 14.996Z" fill="#FC8019"/>
+                                            </svg>
+                                            <span class="checkout_o_span">20% off | Use code PARTY</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row checkout_container_bottom">
+                            <div class="col-8 row checkout_d_left">
+                                <div class="col-8 checkout_d_insideL">
+                                    <span class="checkout_d_span1">Brunch for 2 - Veg (Save upto Rs.45)</span>
+                                    <span class="checkout_d_span1">₹599</span>
+                                    <span class="checkout_d_span2">Brunch: One meal to rule them all! Grab this mega saver combo with your choice of 2 veg wraps, Aloo Paratha (2 pcs), chole and Curd lunchbox and 2 choco lava cakes. This is just bliss on a plate!</span>
+                                </div>
+                                <div class="col-4 checkout_d_insideR">
+                                    <img class="checkout_d_insideR_img" src="" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="cart_container">
+                                    <span class="cart_head">Cart</span>
+                                    <span class="cart_company_name">form <span class="cart_highlight">FitMe</span></span>
+                                    <div class="card_categ cert_padding">
+                                    
+                                    </div>
+                                    <div class="cart_sub cert_padding">
+                                        <div class="card_categ">
+                                            <span class="cart_food_container">Brunch for 2 - Veg<span class="cart_food_amt"></span></span>
+                                            <div class="cart_qty">
+                                                <span class="cart_qty_container">-</span>
+                                                <span class="cart_show_qty">1</span>
+                                                <span class="cart_qty_container">+</span>
+                                            </div>
+                                        </div>
+                                        <span class="cart_desc">₹799</span>
+                                    </div>
+                                    <div class="cart_sub cert_padding">
+                                        <div class="card_categ cart_subtot">
+                                            <span>Subtotal</span>
+                                            <span>₹799</span>
+                                        </div>
+                                        <span class="cart_desc">Extra charges may apply</span>
+                                    </div>
+                                    <button class="cart_btn">Checkout</button>
+                                </div>
+                            </div>
+                        </div>`
+    $("#checkout_div").html(checkout_div)
 }
