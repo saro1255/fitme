@@ -4,91 +4,91 @@
         {
             "name": "Butter Chicken",
             "preparation_time": 45,
-            "amount": "₹250",
+            "amount": 250,
             "cuisine_type": "North Indian",
             "rating": 4.5,
-            "offer": "Two for ₹455"
+            "offer": 455
         },
         "chicken_chettinad":
         {
             "name": "Chicken Chettinad",
             "preparation_time": 40,
-            "amount": "₹280",
+            "amount": 280,
             "cuisine_type": "South Indian",
             "rating": 4.5,
-            "offer": "Two for ₹515"
+            "offer": 515
         },
         "chicken_65":
         {
             "name": "Chicken 65",
             "preparation_time": 25,
-            "amount": "₹220",
+            "amount": 220,
             "cuisine_type": "South Indian",
             "rating": 3.6,
-            "offer": "Two for ₹395"
+            "offer": 395
         },
         "chicken_biryani":
         {
             "name": "Chicken Biryani",
             "preparation_time": 50,
-            "amount": "₹300",
+            "amount": 300,
             "cuisine_type": "Indian",
             "rating": 4.8,
-            "offer": "Two for ₹556"
+            "offer": 556
         },
         "grilled_chicken":
         {
             "name": "Grilled Chicken",
             "preparation_time": 35,
-            "amount": "₹270",
+            "amount": 270,
             "cuisine_type": "Continental",
             "rating": 4.2,
-            "offer": "Two for ₹481"
+            "offer": 481
         },
         "tandoori_chicken":
         {
             "name": "Tandoori Chicken",
             "preparation_time": 45,
-            "amount": "₹320",
+            "amount": 320,
             "cuisine_type": "North Indian",
             "rating": 4.1,
-            "offer": "Two for ₹589"
+            "offer": 589
         },
         "chicken_tikka":
         {
             "name": "Chicken Tikka",
             "preparation_time": 30,
-            "amount": "₹260",
+            "amount": 260,
             "cuisine_type": "North Indian",
             "rating": 4.9,
-            "offer": "Two for ₹463"
+            "offer": 463
         },
         "chicken_korma":
         {
             "name": "Chicken Korma",
             "preparation_time": 40,
-            "amount": "₹290",
+            "amount": 290,
             "cuisine_type": "Mughlai",
             "rating": 4.4,
-            "offer": "Two for ₹512"
+            "offer": 512
         },
         "chicken_curry":
         {
             "name": "Chicken Curry",
             "preparation_time": 35,
-            "amount": "₹240",
+            "amount": 240,
             "cuisine_type": "Indian",
             "rating": 4.9,
-            "offer": "Two for ₹434"
+            "offer": 434
         },
         "chicken_shawarma":
         {
             "name": "Chicken Shawarma",
             "preparation_time": 20,
-            "amount": "₹180",
+            "amount": 180,
             "cuisine_type": "Middle Eastern",
             "rating": 4.0,
-            "offer": "Two for ₹315"
+            "offer": 315
         }
     },
     "Mutton": {
@@ -96,91 +96,91 @@
         {
             "name": "Mutton Rogan Josh",
             "preparation_time": 60,
-            "amount": "₹350",
+            "amount": 350,
             "cuisine_type": "North Indian",
             "rating": 3.9,
-            "offer": "Two for ₹639"
+            "offer": 639
         },
         "mutton_biryani":
         {
             "name": "Mutton Biryani",
             "preparation_time": 60,
-            "amount": "₹380",
+            "amount": 380,
             "cuisine_type": "Indian",
             "rating": 4.3,
-            "offer": "Two for ₹702"
+            "offer": 702
         },
         "mutton_curry":
         {
             "name": "Mutton Curry",
             "preparation_time": 50,
-            "amount": "₹330",
+            "amount": 330,
             "cuisine_type": "Indian",
             "rating": 4.0,
-            "offer": "Two for ₹605"
+            "offer": 605
         },
         "mutton_korma":
         {
             "name": "Mutton Korma",
             "preparation_time": 55,
-            "amount": "₹360",
+            "amount": 360,
             "cuisine_type": "Mughlai",
             "rating": 4.7,
-            "offer": "Two for ₹680"
+            "offer": 680
         },
         "mutton_keema":
         {
             "name": "Mutton Keema",
             "preparation_time": 40,
-            "amount": "₹300",
+            "amount": 300,
             "cuisine_type": "Indian",
             "rating": 4.4,
-            "offer": "Two for ₹549"
+            "offer": 549
         },
         "mutton_fry":
         {
             "name": "Mutton Fry",
             "preparation_time": 45,
-            "amount": "₹320",
+            "amount": 320,
             "cuisine_type": "South Indian",
             "rating": 3.7,
-            "offer": "Two for ₹579"
+            "offer": 579
         },
         "mutton_chops":
         {
             "name": "Mutton Chops",
             "preparation_time": 50,
-            "amount": "₹370",
+            "amount": 370,
             "cuisine_type": "Indian",
             "rating": 5.0,
-            "offer": "Two for ₹692"
+            "offer": 692
         },
         "mutton_sukka":
         {
             "name": "Mutton Sukka",
             "preparation_time": 45,
-            "amount": "₹340",
+            "amount": 340,
             "cuisine_type": "South Indian",
             "rating": 4.0,
-            "offer": "Two for ₹622"
+            "offer": 622
         },
         "mutton_nihari":
         {
             "name": "Mutton Nihari",
             "preparation_time": 70,
-            "amount": "₹390",
+            "amount": 390,
             "cuisine_type": "Mughlai",
             "rating": 3.7,
-            "offer": "Two for ₹711"
+            "offer": 711
         },
         "mutton_stew":
         {
             "name": "Mutton Stew",
             "preparation_time": 50,
-            "amount": "₹310",
+            "amount": 310,
             "cuisine_type": "South Indian",
             "rating": 5.0,
-            "offer": "Two for ₹565"
+            "offer": 565
         }
     },
     "Burger": {
@@ -188,91 +188,91 @@
         {
             "name": "Veg Burger",
             "preparation_time": 15,
-            "amount": "₹100",
+            "amount": 100,
             "cuisine_type": "Western",
             "rating": 4.7,
-            "offer": "Two for ₹159"
+            "offer": 159
         },
         "chicken_burger":
         {
             "name": "Chicken Burger",
             "preparation_time": 20,
-            "amount": "₹130",
+            "amount": 130,
             "cuisine_type": "Western",
             "rating": 4.5,
-            "offer": "Two for ₹201"
+            "offer": 201
         },
         "cheese_burger":
         {
             "name": "Cheese Burger",
             "preparation_time": 15,
-            "amount": "₹120",
+            "amount": 120,
             "cuisine_type": "American",
             "rating": 4.3,
-            "offer": "Two for ₹175"
+            "offer": 175
         },
         "double_patty_burger":
         {
             "name": "Double Patty Burger",
             "preparation_time": 20,
-            "amount": "₹150",
+            "amount": 150,
             "cuisine_type": "American",
             "rating": 4.7,
-            "offer": "Two for ₹247"
+            "offer": 247
         },
         "paneer_burger":
         {
             "name": "Paneer Burger",
             "preparation_time": 15,
-            "amount": "₹110",
+            "amount": 110,
             "cuisine_type": "Indian",
             "rating": 3.9,
-            "offer": "Two for ₹167"
+            "offer": 167
         },
         "fish_burger":
         {
             "name": "Fish Burger",
             "preparation_time": 20,
-            "amount": "₹140",
+            "amount": 140,
             "cuisine_type": "Western",
             "rating": 4.7,
-            "offer": "Two for ₹218"
+            "offer": 218
         },
         "mutton_burger":
         {
             "name": "Mutton Burger",
             "preparation_time": 25,
-            "amount": "₹160",
+            "amount": 160,
             "cuisine_type": "Western",
             "rating": 4.6,
-            "offer": "Two for ₹266"
+            "offer": 266
         },
         "egg_burger":
         {
             "name": "Egg Burger",
             "preparation_time": 15,
-            "amount": "₹90",
+            "amount": 90,
             "cuisine_type": "Indian",
             "rating": 4.7,
-            "offer": "Two for ₹140"
+            "offer": 140
         },
         "spicy_chicken_burger":
         {
             "name": "Spicy Chicken Burger",
             "preparation_time": 20,
-            "amount": "₹135",
+            "amount": 135,
             "cuisine_type": "American",
             "rating": 4.4,
-            "offer": "Two for ₹221"
+            "offer": 221
         },
         "grilled_veg_burger":
         {
             "name": "Grilled Veg Burger",
             "preparation_time": 20,
-            "amount": "₹115",
+            "amount": 115,
             "cuisine_type": "Fusion",
             "rating": 3.8,
-            "offer": "Two for ₹186"
+            "offer": 186
         }
     },
     "South Indian": {
@@ -280,91 +280,91 @@
         {
             "name": "Masala Dosa",
             "preparation_time": 30,
-            "amount": "₹80",
+            "amount": 80,
             "cuisine_type": "South Indian",
             "rating": 4.3,
-            "offer": "Two for ₹112"
+            "offer": 112
         },
         "idly_sambar":
         {
             "name": "Idli Sambar",
             "preparation_time": 20,
-            "amount": "₹60",
+            "amount": 60,
             "cuisine_type": "South Indian",
             "rating": 4.9,
-            "offer": "Two for ₹64"
+            "offer": 64
         },
         "vada":
         {
             "name": "Vada",
             "preparation_time": 25,
-            "amount": "₹50",
+            "amount": 50,
             "cuisine_type": "South Indian",
             "rating": 4.5,
-            "offer": "Two for ₹55"
+            "offer": 55
         },
         "uttapam":
         {
             "name": "Uttapam",
             "preparation_time": 25,
-            "amount": "₹70",
+            "amount": 70,
             "cuisine_type": "South Indian",
             "rating": 3.9,
-            "offer": "Two for ₹98"
+            "offer": 98
         },
         "pongal":
         {
             "name": "Pongal",
             "preparation_time": 30,
-            "amount": "₹75",
+            "amount": 75,
             "cuisine_type": "South Indian",
             "rating": 4.5,
-            "offer": "Two for ₹82"
+            "offer": 82
         },
         "rava_dosa":
         {
             "name": "Rava Dosa",
             "preparation_time": 35,
-            "amount": "₹85",
+            "amount": 85,
             "cuisine_type": "South Indian",
             "rating": 4.1,
-            "offer": "Two for ₹110"
+            "offer": 110
         },
         "appam_with_stew":
         {
             "name": "Appam with Stew",
             "preparation_time": 30,
-            "amount": "₹90",
+            "amount": 90,
             "cuisine_type": "South Indian",
             "rating": 4.8,
-            "offer": "Two for ₹139"
+            "offer": 139
         },
         "neer_dosa":
         {
             "name": "Neer Dosa",
             "preparation_time": 20,
-            "amount": "₹70",
+            "amount": 70,
             "cuisine_type": "South Indian",
             "rating": 4.8,
-            "offer": "Two for ₹73"
+            "offer": 73
         },
         "upma":
         {
             "name": "Upma",
             "preparation_time": 15,
-            "amount": "₹50",
+            "amount": 50,
             "cuisine_type": "South Indian",
             "rating": 3.8,
-            "offer": "Two for ₹41"
+            "offer": 41
         },
         "kuzhi_paniyaram":
         {
             "name": "Kuzhi Paniyaram",
             "preparation_time": 20,
-            "amount": "₹60",
+            "amount": 60,
             "cuisine_type": "South Indian",
             "rating": 4.4,
-            "offer": "Two for ₹72"
+            "offer": 72
         }
     },
     "Pizza": {
@@ -372,91 +372,91 @@
         {
             "name": "Margherita Pizza",
             "preparation_time": 20,
-            "amount": "₹180",
+            "amount": 180,
             "cuisine_type": "Italian",
             "rating": 4.5,
-            "offer": "Two for ₹316"
+            "offer": 316
         },
         "farmhouse_pizza":
         {
             "name": "Farmhouse Pizza",
             "preparation_time": 25,
-            "amount": "₹250",
+            "amount": 250,
             "cuisine_type": "Italian",
             "rating": 4.2,
-            "offer": "Two for ₹450"
+            "offer": 450
         },
         "paneer_tikka_pizza":
         {
             "name": "Paneer Tikka Pizza",
             "preparation_time": 25,
-            "amount": "₹270",
+            "amount": 270,
             "cuisine_type": "Indian-Italian",
             "rating": 4.7,
-            "offer": "Two for ₹482"
+            "offer": 482
         },
         "pepperoni_pizza":
         {
             "name": "Pepperoni Pizza",
             "preparation_time": 30,
-            "amount": "₹320",
+            "amount": 320,
             "cuisine_type": "Italian",
             "rating": 4.8,
-            "offer": "Two for ₹582"
+            "offer": 582
         },
         "veggie_supreme_pizza":
         {
             "name": "Veggie Supreme Pizza",
             "preparation_time": 25,
-            "amount": "₹260",
+            "amount": 260,
             "cuisine_type": "Italian",
             "rating": 4.3,
-            "offer": "Two for ₹453"
+            "offer": 453
         },
         "chicken_sausage_pizza":
         {
             "name": "Chicken Sausage Pizza",
             "preparation_time": 30,
-            "amount": "₹310",
+            "amount": 310,
             "cuisine_type": "Italian",
             "rating": 3.8,
-            "offer": "Two for ₹564"
+            "offer": 564
         },
         "BBQ_Chicken_Pizza":
         {
             "name": "BBQ Chicken Pizza",
             "preparation_time": 30,
-            "amount": "₹330",
+            "amount": 330,
             "cuisine_type": "Italian-American",
             "rating": 5.0,
-            "offer": "Two for ₹597"
+            "offer": 597
         },
         "cheese_burst_pizza":
         {
             "name": "Cheese Burst Pizza",
             "preparation_time": 30,
-            "amount": "₹290",
+            "amount": 290,
             "cuisine_type": "Italian",
             "rating": 4.6,
-            "offer": "Two for ₹515"
+            "offer": 515
         },
         "Mexican_Green_Wave_Pizza":
         {
             "name": "Mexican Green Wave Pizza",
             "preparation_time": 25,
-            "amount": "₹270",
+            "amount": 270,
             "cuisine_type": "Fusion",
             "rating": 4.4,
-            "offer": "Two for ₹474"
+            "offer": 474
         },
         "four_cheese_pizza":
         {
             "name": "Four Cheese Pizza",
             "preparation_time": 30,
-            "amount": "₹350",
+            "amount": 350,
             "cuisine_type": "Italian",
             "rating": 3.9,
-            "offer": "Two for ₹635"
+            "offer": 635
         }
     }
 }

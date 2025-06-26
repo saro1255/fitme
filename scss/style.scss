@@ -6,6 +6,7 @@
 $primary-color-w: #ffffff;
 $primary-color-b: #000000;
 $secondary-color: #FC8019;
+$secondary-color-d : #e81e1e;
 $secondary-color-b: #202020;
 $secondary-color-g: #808080;
 $secondary-color-r: #F8F8F8;
@@ -290,6 +291,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
 }
 
 .mind_img{
@@ -400,7 +402,7 @@ body {
 }
 
 .checkout_img{
-    width: 80%;
+    width: 70%;
     height: 100%;
     border-radius: 10px;
     border: 1px solid white;
@@ -488,6 +490,17 @@ body {
     font-size: 13px;
     font-family: $primary-font;
     font-weight: 500;
+}
+
+.checkout_left{
+    display: flex;
+    gap: 20px;
+}
+
+.checkout_goback{
+    width: 30%;
+    color: $secondary-color;
+    cursor: pointer;
 }
 
 .checkout_o_span{

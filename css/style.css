@@ -276,6 +276,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 
 .mind_img {
@@ -386,7 +387,7 @@ body {
 }
 
 .checkout_img {
-  width: 80%;
+  width: 70%;
   height: 100%;
   border-radius: 10px;
   border: 1px solid white;
@@ -474,6 +475,17 @@ body {
   font-size: 13px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+
+.checkout_left {
+  display: flex;
+  gap: 20px;
+}
+
+.checkout_goback {
+  width: 30%;
+  color: #FC8019;
+  cursor: pointer;
 }
 
 .checkout_o_span {
