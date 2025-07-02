@@ -40,9 +40,9 @@ body {
 
 .default_btn {
     border: 1px solid $secondary-color;
-    height: 40px;
+    height: 45px;
+    padding: 0px 20px;
     color: #000;
-    padding: 10px 20px;
     border-radius: 10px;
     font-family: $secondry-font;
     font-weight: 400;
@@ -157,6 +157,7 @@ body {
 .product-card-container{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .product-card{
@@ -325,6 +326,7 @@ body {
     padding: 10px;
     background-color: $secondary-color-r;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .search_res_img{
