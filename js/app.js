@@ -50,7 +50,9 @@ let stored_data = {};
             var get_dish = jsonData.dishes[i][jsonData.day_Spl[i][j]];
             show_day_spl += `<div class="col-6 product-card-container" onclick="selected_meals('${i}','${jsonData.day_Spl[i][j]}')">
                                 <div class='product-card'>
-                                    <div class="product-img"></div>
+                                    <div class="product-img">
+                                        <img class='show_pro_img' src="./images/products/${jsonData.day_Spl[i][j]}.jpg" alt="${jsonData.day_Spl[i][j]}">
+                                    </div>
                                     <span class="product-name"></span>
                                     <div class="product-rating">
                                         <span class="product-cusine">${get_dish.cuisine_type}</span>
@@ -91,7 +93,9 @@ let stored_data = {};
             var get_dish = jsonData.dishes[i][jsonData.recom_dish[i][j]];
             show_recom += `<div class="col-6 product-card-container" onclick="selected_meals('${i}','${jsonData.recom_dish[i][j]}')">
                                 <div class='product-card'>
-                                    <div class="product-img"></div>
+                                    <div class="product-img">
+                                        <img class='show_pro_img' src="./images/products/${jsonData.recom_dish[i][j]}.jpg" alt="${jsonData.day_Spl[i][j]}">
+                                    </div>
                                     <span class="product-name"></span>
                                     <div class="product-rating">
                                         <span class="product-cusine">${get_dish.cuisine_type}</span>
@@ -129,7 +133,7 @@ let stored_data = {};
     var show_categ = ''
     for (var i in jsonData.dishes) {
         show_categ += ` <div class='mind_show_categ' onclick="search_dish('${i}')">
-                            <img src="" alt="" class="mind_img">
+                            <img class='mind_pro_img' src="./images/products/${i}.jpg" alt="${i}">
                             <span class='food_name'>${i}</span>
                         </div>`
     }
@@ -147,7 +151,7 @@ function search_dish(categ) {
                 var search_name = jsonData.dishes[i][j]['name'].toLowerCase()
                 if (search_name.includes(get_search_input)) {
                     generate_search += `<div class='search_res_container' onclick="selected_meals('${i}','${j}')">
-                                            <img src="" alt="" class='search_res_img'>
+                                            <img src="./images/products/${j}.jpg" alt="${j}" class='search_res_img'>
                                             <div class='search_con_r'>
                                                 <span class='food_name'>${jsonData.dishes[i][j]['name']}</span>
                                                 <span class='food_name_g'>${jsonData.dishes[i][j]['cuisine_type']}</span>
@@ -211,7 +215,7 @@ function selected_meals(meal_categ, meal){
                                     </svg>
                                     Go Back
                                 </span>
-                                    <img class="checkout_img" src="" alt="">
+                                    <img class="checkout_img" src="./images/products/${meal}.jpg" alt="${meal}">
                                 </div>
                                 <div class="col-5 checkout_content">
                                     <span class="checkout_m_show">${selected_meal_obj.name ? selected_meal_obj.name : ''}</span>
@@ -263,7 +267,7 @@ function selected_meals(meal_categ, meal){
                                     <span class="checkout_d_span2">Brunch: One meal to rule them all! Grab this mega saver combo with your choice of 2 veg wraps, Aloo Paratha (2 pcs), chole and Curd lunchbox and 2 choco lava cakes. This is just bliss on a plate!</span>
                                 </div>
                                 <div class="col-4 checkout_d_insideR">
-                                    <img class="checkout_d_insideR_img" src="" alt="">
+                                    <img class="checkout_d_insideR_img" src="./images/products/${meal}.jpg" alt="${meal}">
                                 </div>
                             </div>
                             <div class="col-4">
@@ -363,5 +367,93 @@ function show_notify(alert,title,text){
 
 function show_cart(){
     div_functionality('show_cart')
-    var show_cart_div = ``
+    var show_cart_div = `<div class="show_cart_delivery">
+                            <label class="span_heading_1 set_label_width">Delivery Information</label>
+                            <div class="sc_container">
+                                <div class="sc_grid">
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="name">Name</label>
+                                        <input class="sc_input" type="text" id="name" placeholder="Bryan Cranston" />
+                                    </div>
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="mobile">Mobile Number</label>
+                                        <input class="sc_input" type="tel" id="mobile" placeholder="+1 424-236-3574" />
+                                    </div>
+                                    <div class="sc_group sc_group_full">
+                                        <label class="sc_label" for="email">Email</label>
+                                        <input class="sc_input" type="email" id="email" placeholder="thejon |" />
+                                    </div>
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="city">City</label>
+                                        <input class="sc_input" type="text" id="city" placeholder="Hawthorne" disabled />
+                                    </div>
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="state">State</label>
+                                        <input class="sc_input" type="text" id="state" placeholder="California" disabled />
+                                    </div>
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="zip">ZIP</label>
+                                        <input class="sc_input" type="text" id="zip" placeholder="90250" />
+                                    </div>
+                                    <div class="sc_group">
+                                        <label class="sc_label" for="state-abbr">State</label>
+                                        <select class="sc_select" id="state-abbr">
+                                            <option selected>CA</option>
+                                            <option>NY</option>
+                                            <option>TX</option>
+                                            <option>FL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc_order_sum">
+                            <label class="span_heading_1 set_label_width">Order Summary</label>
+                            <div class="show_cart_main">
+                                <div class="show_cart_left">
+                                    <img src="" alt="" class='search_res_img'>
+                                    <div class='search_con_r'>
+                                        <span class='food_name'>demo</span>
+                                        <span class='food_name_g'>demo</span>
+                                        <div class='search_con_rate'>
+                                            <span class='food_name'>
+                                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.75"
+                                                        d="M20.4194 1.58928C20.2343 1.40207 20.0138 1.25355 19.7708 1.15238C19.5278 1.05122 19.267 0.999418 19.0038 1H13.516C13.156 1.00068 12.8108 1.14328 12.5553 1.39687L1.58458 12.3654C1.21024 12.7405 1 13.2488 1 13.7787C1 14.3087 1.21024 14.817 1.58458 15.1921L6.80767 20.4152C7.18288 20.7897 7.69135 21 8.22147 21C8.7516 21 9.26007 20.7897 9.63528 20.4152L20.6015 9.45114C20.8556 9.19604 20.9987 8.85095 20.9997 8.49089V2.99996C21.0014 2.73809 20.9509 2.47851 20.8513 2.23633C20.7516 1.99414 20.6048 1.77419 20.4194 1.58928ZM16.7141 6.71415C16.4316 6.71415 16.1554 6.63037 15.9205 6.4734C15.6855 6.31643 15.5025 6.09332 15.3943 5.83229C15.2862 5.57126 15.2579 5.28403 15.313 5.00692C15.3682 4.72981 15.5042 4.47527 15.704 4.27549C15.9038 4.0757 16.1583 3.93965 16.4354 3.88453C16.7125 3.82941 16.9998 3.8577 17.2608 3.96582C17.5218 4.07394 17.7449 4.25704 17.9019 4.49196C18.0589 4.72688 18.1427 5.00308 18.1427 5.28561C18.1427 5.66449 17.9922 6.02784 17.7243 6.29574C17.4563 6.56364 17.093 6.71415 16.7141 6.71415Z"
+                                                        stroke="#FC8019" stroke-width="1.5" />
+                                                </svg>
+                                                ₹000
+                                            </span>
+                                            <span class='food_name'>
+                                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.75">
+                                                        <path
+                                                            d="M8.90123 13.4567L11.8642 14.4444C11.8642 14.4444 19.2716 12.9629 20.2593 12.9629C21.2469 12.9629 21.2469 13.9505 20.2593 14.9382C19.2716 15.9259 15.8148 18.8888 12.8519 18.8888C9.88889 18.8888 7.91358 17.4073 5.93827 17.4073H1"
+                                                            stroke="#FC8019" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M1 11.4815C1.98765 10.4938 3.96296 9.01232 5.93827 9.01232C7.91358 9.01232 12.6049 10.9876 13.3457 11.9753C14.0864 12.9629 11.8642 14.4444 11.8642 14.4444M6.92593 6.04936V2.09874C6.92593 1.8368 7.02998 1.58558 7.2152 1.40036C7.40042 1.21514 7.65164 1.11108 7.91358 1.11108H19.7654C20.0274 1.11108 20.2786 1.21514 20.4638 1.40036C20.649 1.58558 20.7531 1.8368 20.7531 2.09874V9.99997"
+                                                            stroke="#FC8019" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M11.3702 1.11108H16.3085V5.55553H11.3702V1.11108Z" stroke="#FC8019"
+                                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </g>
+                                                </svg>
+                                                0 mins
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="show_cart_right">
+                                    <div class="cart_qty cart_border">
+                                        <span class="cart_qty_container">-</span>
+                                        <span class="cart_show_qty" id='show_checkout_qty'>1</span>
+                                        <span class="cart_qty_container">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`
+    $("#show_cart").html(show_cart_div)
 }
